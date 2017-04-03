@@ -3,6 +3,13 @@
 
 #include <QMainWindow>
 
+//main color
+#define MAIN_BACK_GROUND_COLOR      "background-color:rgba(176, 176, 176, 255);"
+#define BP_BACK_GROUND_COLOR_GREEN  "background-color:rgba(100, 0, 0, 50);"
+#define BP_BACK_GROUND_COLOR_RED    "background-color:rgba(255, 255, 127, 50);"
+
+#define BP_BACK_GROUND_IMAGE_OPEN   "image: url(:/images/Images/folder.png);"
+
 //test again
 namespace Ui {
 class MainWindow;
@@ -17,12 +24,6 @@ public:
     ~MainWindow();
 
 private slots:
-
-    void on_BP_Green_released();
-
-    void on_BP_Green_toggled(bool _checked);
-
-    void on_BP_Green_clicked();
 
     void on_BP_Green_pressed();
 
