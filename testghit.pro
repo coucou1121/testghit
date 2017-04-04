@@ -24,11 +24,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    graphiqueTempReel.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    graphiqueTempReel.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    graphiqueTempReel.ui
 
 RESOURCES += \
     images.qrc

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>740</width>
-    <height>560</height>
+    <width>800</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -32,10 +32,10 @@
    <widget class="QPushButton" name="BP_Green">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>10</y>
+      <x>260</x>
+      <y>120</y>
       <width>171</width>
-      <height>101</height>
+      <height>80</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -98,20 +98,31 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>740</width>
+     <width>800</width>
      <height>25</height>
     </rect>
    </property>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
-    <enum>BottomToolBarArea</enum>
+    <enum>TopToolBarArea</enum>
    </attribute>
    <attribute name="toolBarBreak">
-    <bool>false</bool>
+    <bool>true</bool>
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
