@@ -33,7 +33,7 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>20</y>
+      <y>10</y>
       <width>171</width>
       <height>101</height>
      </rect>
@@ -105,7 +105,7 @@
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
+    <enum>BottomToolBarArea</enum>
    </attribute>
    <attribute name="toolBarBreak">
     <bool>false</bool>
